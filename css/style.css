@@ -80,6 +80,10 @@ body, input, output{font-family: opensan-r}
 .section-tittle{text-align: center; padding-top: 70px; padding-bottom: 50px  }
 .section-tittle h1{color: #B73032; font-family: quantico}
 .section-tittle p{ font-family: opensan-r}
+.banner-category{position: relative; margin-bottom: 24px;}
+.banner-category h1{font-family: quantico; font-size: 30px; position: absolute; top: 30px; left: 30px; text-transform: uppercase;}
+.nav-pills .nav-link{border-radius: 0; color: #000; background-color:#B73032; text-transform: capitalize; font-size: 18px; font-family: quantico; margin: 0 16px;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{background-color: #FF5151;}
 @media screen and (max-width: 1399px){
 	#banner .carousel-caption{top: 20%; width: 70%}
 }
